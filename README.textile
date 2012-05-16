@@ -1,0 +1,34 @@
+h1. boost
+
+Vim plugin for creating new files from templates.
+
+h2. Description
+ 
+Based on Aristotle Pagaltzis <pagaltis@gmz.de> template script. 
+"http://www.vim.org/scripts/script.php?script_id=1172":http://www.vim.org/scripts/script.php?script_id=1172
+
+Modified to use .tpl extensions and a filetype definition at the top of the template. The script is no longer automatically executed for a new buffer. 
+
+In order to tell Vim to use the correct filetype for editing, you must place the following text on the first line of the template: 
+
+@# filetype: xhtml@ 
+
+This will cause the vim filetype to be set to whatever filetype is specified after the colon (xhtml in this case). The filetype definition will then be removed from the newly created buffer. 
+
+You can still set the initial curser position in the template as per Aristotle's original script. 
+
+To load a template use the 'Boost' command followed by the template name (without the .tpl suffix). 
+
+For example: 
+@:Boost html@ loads the html.tpl template into the current buffer 
+@:Boost html-strict@ loads the html-strict.tpl template into the current buffer
+@:Boost bash@ loads the bash.tpl template into the current buffer 
+@:Boost mytemplate@ loads the mytemplate.tpl template into the current buffer
+
+h2. Installation
+
+Place boost.vim in your Vim plugins directory (or in your bundle/boot/plugin directory if you are using pathogen). 
+
+Then create a 'templates' directory in your .vim directory and place your .tpl templates here. For example a bash.tpl template, or a css.tpl, or any file that you would like to load as a template - as long as it ends in .tpl. 
+
+There are sample templates included in the repository.

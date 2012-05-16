@@ -27,7 +27,7 @@ For example:
 
 h2. Installation
 
-Place boost.vim in your Vim plugins directory (or in your bundle/boot/plugin directory if you are using pathogen). 
+Place boost.vim in your Vim plugins directory (or in your bundle/boost/plugin directory if you are using pathogen). 
 
 Then create a 'templates' directory in your .vim directory and place your .tpl templates here. For example a bash.tpl template, or a css.tpl, or any file that you would like to load as a template - as long as it ends in .tpl. 
 

@@ -29,7 +29,7 @@ For example:
 
 h3. Autocomplete
 
-Thanks to Johannes Deutsch "https://github.com/nichtleiter":https://github.com/nichtleiter for the autocomplete feature. Now typing @Boost <tab>@ will show you the available list of templates (on Mac OS X and all *nix boxes).
+Thanks to Johannes Deutsch "https://github.com/nichtleiter":https://github.com/nichtleiter for the argument autocomplete feature. Now typing @Boost <tab>@ will show you the available list of templates (on Mac OS X and all *nix boxes).
 
 h2. Installation
 

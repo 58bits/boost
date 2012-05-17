@@ -9,6 +9,8 @@ Based on Aristotle Pagaltzis <pagaltis@gmz.de> template script.
 
 Modified to use .tpl extensions and a filetype definition at the top of the template. The script is no longer automatically executed for a new buffer. 
 
+h3. Usage
+
 In order to tell Vim to use the correct filetype for editing, you must place the following text on the first line of the template: 
 
 @# filetype: xhtml@ 
@@ -24,6 +26,10 @@ For example:
 @:Boost html-strict@ loads the html-strict.tpl template into the current buffer
 @:Boost bash@ loads the bash.tpl template into the current buffer 
 @:Boost mytemplate@ loads the mytemplate.tpl template into the current buffer
+
+h3. Autocomplete
+
+Thanks to Johannes Deutsch "https://github.com/nichtleiter":https://github.com/nichtleiter for the autocomplete feature. Now typing @Boost <tab>@ will show you the available list of templates (on Mac OS X and all *nix boxes).
 
 h2. Installation
 
